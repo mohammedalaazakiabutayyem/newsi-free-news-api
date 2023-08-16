@@ -105,10 +105,10 @@ sort | The order to sort the articles in :<br/>```top``` = Fetch the top news.<b
 page | Use this to page through the results.
 
 ```
-https://newsi-app.com/api/local?language={language_code}&country={country_code}&sort={sort_by}&page={page_count}
+https://newsi-app.com/api/local?category={language_code}&language={language_code}&country={country_code}&sort={sort_by}&page={page_count}
 ```
 
-Example - https://newsi-app.com/api/local?language=en&country=us&sort=top&page=1
+Example - https://newsi-app.com/api/local?category=world&language=en&country=us&sort=top&page=1
 
 ```JSON
   {
