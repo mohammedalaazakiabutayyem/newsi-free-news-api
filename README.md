@@ -24,15 +24,22 @@ This API supports category wise news. Here is a complete list of all categories.
 
 
 
-## Usage
+## Local news
 
-Make a get request specifying the category of news you want
+Make a get request specifying the local of news you want
+
+Field | Description
+------|------------
+language | The 2-letter ISO-639-1 code of the language you want to get headlines for. example: ```ar``` ```en``` ```es``` ```fr``` ```he``` .....
+country | Find sources that display news in a specific country. Possible options: .```eg``` ```us``` ```es``` ```fr``` ```in``` .....
+sort | The order to sort the articles in :<br/>```top``` = Fetch the top news.<br/>```last``` = Fetch the latest news.
+page | The username of the item's author.
 
 ```
-https://inshorts.deta.dev/news?category={category_name}
+http://127.0.0.1:5000/api/local?language={language_code}&country={country_code}&sort={sort_by}&page={page_count}
 ```
 
-Example - https://inshorts.deta.dev/news?category=science
+Example - http://127.0.0.1:5000/api/local?language=en&country=us&sort=top&page=1
 
 ---
 
