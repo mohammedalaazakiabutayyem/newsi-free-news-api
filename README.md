@@ -5,7 +5,7 @@
 Free News API is able to fetch local news and category news in real time.
 
 Please email mohammedalaazakitayyem@gmail.com if you find any bugs.
-This api works with :[Newsi](https://newsi-app.com)
+This api works by : [Newsi](https://newsi-app.com)
 
 ## The News api
 
