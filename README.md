@@ -39,12 +39,6 @@ https://newsi-app.com/api/local?language={language_code}&country={country_code}&
 
 Example - https://newsi-app.com/api/Supported-language-and-countries
 
----
-
-## Response Format
-
-The response JSON Object looks something like this -
-
 ```JSON
   {
     "United States": [
@@ -79,12 +73,6 @@ https://newsi-app.com/api/local?language={language_code}&country={country_code}&
 
 Example - https://newsi-app.com/api/local?language=en&country=us&sort=top&page=1&limit=20
 
----
-
-## Response Format
-
-The response JSON Object looks something like this -
-
 ```JSON
   {
     "_id": "7cdb7212a8bdf75e6fe105ac6059e8cf7e8d089a825ae49d70fa309f563af7fb",
@@ -110,6 +98,7 @@ Make a get request specifying the Category of news you want
 
 Field | Description
 ------|------------
+category | The category you want to get new for. Possible options:<br/>```sport```<br/>```world```<br/>```business```<br/>```science_and_technology```<br/>```education```<br/>```entertainment```<br/>```health```<br/>```travel```.
 language | The 2-letter ISO-639-1 code of the language you want to get headlines for. example: ```ar``` ```en``` ```es``` ```fr``` ```he``` .....
 country | Find sources that display news in a specific country. Possible options: .```eg``` ```us``` ```es``` ```fr``` ```in``` .....
 sort | The order to sort the articles in :<br/>```top``` = Fetch the top news.<br/>```last``` = Fetch the latest news.
@@ -120,12 +109,6 @@ https://newsi-app.com/api/local?language={language_code}&country={country_code}&
 ```
 
 Example - https://newsi-app.com/api/local?language=en&country=us&sort=top&page=1
-
----
-
-## Response Format
-
-The response JSON Object looks something like this -
 
 ```JSON
   {
