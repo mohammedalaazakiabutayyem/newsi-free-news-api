@@ -98,7 +98,7 @@ Make a get request specifying the Category of news you want
 
 Field | Description
 ------|------------
-category | The category you want to get new for. Possible options:<br/>```sport```<br/>```world```<br/>```business```<br/>```science_and_technology```<br/>```education```<br/>```entertainment```<br/>```health```<br/>```travel```.
+category | The category you want to get new for. Possible options:```sport``` ```world``` ```business``` ```science_and_technology``` ```education``` ```entertainment``` ```health``` ```travel```.
 language | The 2-letter ISO-639-1 code of the language you want to get headlines for. example: ```ar``` ```en``` ```es``` ```fr``` ```he``` .....
 country | Find sources that display news in a specific country. Possible options: .```eg``` ```us``` ```es``` ```fr``` ```in``` .....
 sort | The order to sort the articles in :<br/>```top``` = Fetch the top news.<br/>```last``` = Fetch the latest news.
